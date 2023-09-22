@@ -1,7 +1,7 @@
 #pragma once
 class Vida
 {
-    private:
+private:
         /* data* /
      public:
         Vida(/* args */) {}

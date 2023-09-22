@@ -1,7 +1,7 @@
 #pragma once
 class Interfaz
 {
-    private:
+private:
         /* data* /
      public:
         Interfaz(/* args */) {}

@@ -1,7 +1,7 @@
 #pragma once
 class Tamaño
 {
-    private:
+private:
         /* data* /
      public:
         Tamaño(/* args */) {}

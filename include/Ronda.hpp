@@ -1,7 +1,7 @@
 #pragma once
 class Ronda
 {
-    private:
+private:
         /* data* /
      public:
         Ronda(/* args */) {}

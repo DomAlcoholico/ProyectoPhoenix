@@ -1,7 +1,7 @@
 #pragma once
 class Jugador
 {
-    private:
+private:
         /* data* /
      public:
         Jugador(/* args */) {}

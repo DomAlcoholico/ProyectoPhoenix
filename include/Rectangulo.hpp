@@ -1,7 +1,7 @@
 #pragma once
 class Rectangulo
 {
-    private:
+private:
         /* data* /
      public:
         Rectangulo(/* args */) {}

@@ -1,7 +1,7 @@
 #pragma once
 class Posicion
 {
-    private:
+private:
         /* data* /
      public:
         Posicion(/* args */) {}

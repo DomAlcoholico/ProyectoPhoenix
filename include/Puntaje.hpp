@@ -1,7 +1,7 @@
 #pragma once
 class Puntaje
 {
-    private:
+private:
         /* data* /
      public:
         Puntaje(/* args */) {}

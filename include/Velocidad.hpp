@@ -1,7 +1,7 @@
 #pragma once
 class Velocidad
 {
-    private:
+private:
         /* data* /
      public:
         Velocidad(/* args */) {}

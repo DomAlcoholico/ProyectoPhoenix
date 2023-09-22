@@ -1,7 +1,7 @@
 #pragma once
 class Colision
 {
-    private:
+private:
         /* data* /
      public:
         Colision(/* args */) {}

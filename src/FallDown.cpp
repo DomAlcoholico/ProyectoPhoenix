@@ -22,7 +22,7 @@
 
 int main()
 {
-    std::cout<<"Fall Down"<<std::endl;
+    std::cout << "Fall Down" << std::endl;
     Colision col;
     Direccion dir;
     Fondo fon;

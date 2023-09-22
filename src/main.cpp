@@ -3,7 +3,7 @@
 
 int main(int argc, char const *argv[])
 {
-    std::cout<<"Juego de Mascotas"<<std::endl; 
+    std::cout << "Juego de Mascotas" << std::endl;
 
     Mascota m1, m2, m3;
 
@@ -16,5 +16,4 @@ int main(int argc, char const *argv[])
     m3.DecirNombre();
 
     return 0;
-
 }

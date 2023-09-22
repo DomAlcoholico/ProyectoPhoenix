@@ -1,7 +1,7 @@
 #pragma once
 class Plataforma
 {
-    private:
+private:
         /* data* /
      public:
         Plataforma(/* args */) {}

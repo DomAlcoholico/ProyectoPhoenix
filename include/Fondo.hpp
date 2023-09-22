@@ -1,7 +1,7 @@
 #pragma once
 class Fondo
 {
-    private:
+private:
         /* data* /
      public:
         Fondo(/* args */) {}

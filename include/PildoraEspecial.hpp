@@ -1,7 +1,7 @@
 #pragma once
 class PildoraEspecial
 {
-    private:
+private:
         /* data* /
      public:
         PildoraEspecial(/* args */) {}

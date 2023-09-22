@@ -1,7 +1,7 @@
 #pragma once
 class Movimiento
 {
-    private:
+private:
         /* data* /
      public:
         Movimiento(/* args */) {}

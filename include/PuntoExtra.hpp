@@ -1,7 +1,7 @@
 #pragma once
 class PuntoExtra
 {
-    private:
+private:
         /* data* /
      public:
         PuntoExtra(/* args */) {}

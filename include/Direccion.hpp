@@ -1,7 +1,7 @@
 #pragma once
 class Direccion
 {
-    private:
+private:
         /* data* /
      public:
         Direccion(/* args */) {}

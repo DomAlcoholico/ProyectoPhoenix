@@ -8,15 +8,16 @@ private:
     std::string nombre;
 
 public:
-Mascota()
+    Mascota()
     {
-     this->vida = 100; //constructor
-    } 
-    void EstablecerNombre(std::string nombre) {
-       
-        this->nombre = nombre; 
+        this->vida = 100; // constructor
     }
-    ~Mascota() {} //destructor
+    void EstablecerNombre(std::string nombre)
+    {
+
+        this->nombre = nombre;
+    }
+    ~Mascota() {} // destructor
     void DecirNombre()
     {
         std::cout << "Mi nombre es: " << this->nombre << std::endl;
