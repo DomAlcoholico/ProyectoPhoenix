@@ -1,0 +1,47 @@
+@startuml Diagrama
+#pragma once
+class Mascota{
++ EstablecerNombre()
+}
+
+class 
+class Personaje
+class PuntoExtra
+class PildoraEspecial
+class Plataforma
+class Pantalla 
+class Puntaje
+class Fondo
+class Movimiento 
+class Vida
+class Interfaz
+class Juego 
+class Ronda
+class Direccion
+class Jugador
+class Colision 
+class Posicion 
+class Tamaño
+class Rectangulo 
+class Velocidad 
+
+Interfaz *-- Pantalla
+Pantalla *-- Fondo
+Pantalla *-- Puntaje
+Juego o-- Pantalla
+Juego *-- Ronda
+Juego *-- Personaje
+Juego *-- Interfaz
+Personaje *-- Vida
+Personaje o-- PildoraEspecial
+Personaje o-- Direccion
+PildoraEspecial o-- PuntoExtra
+Personaje o-- Plataforma 
+Personaje *-- Movimiento
+Jugador o-- Personaje
+Rectangulo *-- Colision 
+Personaje *-- Posicion 
+Plataforma --|> Rectangulo 
+Rectangulo *-- Posicion 
+Juego *-- Velocidad 
+@enduml
