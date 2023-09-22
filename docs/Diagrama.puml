@@ -1,4 +1,4 @@
-@startuml Diagrama
+@startuml Diagrama Fall Down
 #pragma once
 class Mascota{
 + EstablecerNombre()

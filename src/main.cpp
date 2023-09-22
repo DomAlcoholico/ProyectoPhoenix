@@ -1,5 +1,5 @@
 #include <iostream>
-#include <mascota.hpp>
+#include <Mascota.hpp>
 
 int main(int argc, char const *argv[])
 {
