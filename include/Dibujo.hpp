@@ -18,25 +18,25 @@ protected:
     /* data */
 
 public:
-    Dibujo(int x, int y,string recurso) {
+    Dibujo(int x, int y, string recurso)
+    {
         this->directorio = "./data/" + recurso + ".txt";
         this->is_open = false;
         this->archivo.open(this->directorio, ios::in);
-        this->posicion = Vector(x,y);
+        this->posicion = Vector(x, y);
     }
-    Dibujo(string recurso) : Dibujo(0,0,recurso){
-        
+    Dibujo(string recurso) : Dibujo(0, 0, recurso)
+    {
     }
-    
-void Dibujar()
-    {  
-    if (archivo.is_open())
+
+    void Dibujar()
+    {
+        if (archivo.is_open())
         {
             std::string line;
             move(
                 this->posicion.LeerY(),
-                this->posicion.LeerX()
-            );
+                this->posicion.LeerX());
 
             while (std::getline(archivo, line))
             {

@@ -12,11 +12,11 @@ private:
     /* data */
 
 public:
-    Jugador () : Dibujo("player")//,HitBox(this->posicion.LeerX(),this->posicion.LeerY(),12,4)
+    Jugador() : Dibujo("player") //,HitBox(this->posicion.LeerX(),this->posicion.LeerY(),12,4)
     {
         this->posicion = Vector();
     }
-    Jugador(int x, int y):Dibujo("player")//,HitBox(this->posicion.LeerX(),this->posicion.LeerY(),12,4)
+    Jugador(int x, int y) : Dibujo("player") //,HitBox(this->posicion.LeerX(),this->posicion.LeerY(),12,4)
     {
         this->posicion.DesplazarX(x);
         this->posicion.DesplazarY(y);
@@ -29,19 +29,21 @@ public:
     //     //this->posicion.CambiarDireccionX();
     // }
 
-    void Avanzar(){
+    void Avanzar()
+    {
         this->posicion.DesplazarX(1);
     }
 
-    void CambiarDireccion(){
+    void CambiarDireccion()
+    {
         this->posicion.CambiarDireccionX();
     }
 
-    Vector LeerPosicion(){
+    Vector LeerPosicion()
+    {
         return this->posicion;
     }
-    ~Jugador() 
+    ~Jugador()
     {
-
     }
 };

@@ -23,28 +23,26 @@ public:
         // Eliminar cursor de pantalla
         noecho();
         curs_set(FALSE);
-        
-        // no bloquear consola 
+
+        // no bloquear consola
         cbreak();
         timeout(10);
-        keypad(stdscr,TRUE);
+        keypad(stdscr, TRUE);
 
-        //Inicializar clase
+        // Inicializar clase
         getmaxyx(stdscr, y, x); // obtiene el tamaño de caracteres
         cerrar = false;
     }
-    void Actualizar(list< Actualizable*> listaActualizables)
+    void Actualizar(list<Actualizable *> listaActualizables)
     {
         for (auto &&iterador : listaActualizables)
         {
-                 iterador->Actualizar();
-           
+            iterador->Actualizar();
         }
         usleep(41000);
-   
     }
-  
-    void Dibujar(list <Dibujo*> listaDibujos)
+
+    void Dibujar(list<Dibujo *> listaDibujos)
     {
         clear();
         box(stdscr, 'Q', 'W');
@@ -53,7 +51,7 @@ public:
         {
             dibujo->Dibujar();
         }
-        
+
         refresh();
     }
     bool DeboCerrar()
@@ -66,7 +64,7 @@ public:
     }
     ~Ventana()
     {
-        keypad(stdscr,FALSE);
+        keypad(stdscr, FALSE);
         endwin();
     }
 };

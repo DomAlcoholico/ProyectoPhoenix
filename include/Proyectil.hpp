@@ -7,15 +7,16 @@ class Proyectil : public Dibujo, public Actualizable
 {
 private:
     int tiempoVida;
+
 public:
-    Proyectil(Vector posicion) :
-    Dibujo(posicion.LeerX(),posicion.LeerY(),"proyectil")
+    Proyectil(Vector posicion) : Dibujo(posicion.LeerX(), posicion.LeerY(), "proyectil")
     {
         this->tiempoVida = 100;
     }
     ~Proyectil() {}
 
-    void Actualizar(){
+    void Actualizar()
+    {
         this->posicion.DesplazarX(1);
     }
 };

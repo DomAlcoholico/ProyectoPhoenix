@@ -12,11 +12,11 @@ private:
     /* data */
 
 public:
-    Floor () : Dibujo("floor")//,HitBox(this->posicion.LeerX(),this->posicion.LeerY(),12,4)
+    Floor() : Dibujo("floor") //,HitBox(this->posicion.LeerX(),this->posicion.LeerY(),12,4)
     {
         this->posicion = Vector();
     }
-    Floor(int x, int y):Dibujo("floor")//,HitBox(this->posicion.LeerX(),this->posicion.LeerY(),12,4)
+    Floor(int x, int y) : Dibujo("floor") //,HitBox(this->posicion.LeerX(),this->posicion.LeerY(),12,4)
     {
         this->posicion.DesplazarX(x);
         this->posicion.DesplazarY(y);
@@ -29,8 +29,7 @@ public:
     //     //this->posicion.CambiarDireccionX();
     // }
 
-    ~Floor() 
+    ~Floor()
     {
-
     }
 };

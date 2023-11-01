@@ -9,5 +9,4 @@ public:
     virtual void Actualizar() {}
 
     ~Actualizable() {}
-    
 };
